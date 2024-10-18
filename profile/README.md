@@ -34,3 +34,14 @@ If you have any questions or suggestions, feel free to reach out!*
 *Aditya Chandeliya -> https://github.com/imchandeliya*
 
 
+___
+
+
+### 🛒 Contents 
+
+### Module 1: Introduction to System Design
+
+- [Introduction to Design Patterns](/docs/intro-design-patterns.md)
+	- [Creational Design Patterns](https://github.com/absolute-bonkers/design-patterns-creational/blob/main/README.md)
+	- Structural Design Patterns
+	- Behavioral Design Patterns
