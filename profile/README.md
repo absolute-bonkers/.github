@@ -44,9 +44,191 @@ ___
 
 ### 🛒 Contents 
 
-### Module 1: Introduction to System Design
+### Module 1: Introduction to Design Patterns
 
 - [Introduction to Design Patterns](/docs/intro-design-patterns.md)
 	- [Creational Design Patterns](https://github.com/absolute-bonkers/design-patterns-creational/blob/main/README.md)
 	- [Structural Design Patterns](https://github.com/absolute-bonkers/design-patterns-structural/blob/main/README.md)
 	- [Behavioral Design Patterns](https://github.com/absolute-bonkers/design-patterns-behavioral/blob/main/README.md)
+
+### Module 2: SOLID Principles & Clean Code
+
+- Single Responsibility Principle (SRP)
+- Open/Closed Principle (OCP)
+- Liskov Substitution Principle (LSP)
+- Interface Segregation Principle (ISP)
+- Dependency Inversion Principle (DIP)
+- DRY, KISS, YAGNI
+- Code Smells & Refactoring
+
+### Module 3: Architectural Patterns
+
+- Monolithic Architecture
+- Microservices Architecture
+- Service-Oriented Architecture (SOA)
+- Event-Driven Architecture (EDA)
+- Hexagonal Architecture (Ports & Adapters)
+- Clean Architecture
+- Layered (N-Tier) Architecture
+- CQRS (Command Query Responsibility Segregation)
+- Event Sourcing
+- Serverless Architecture
+- Micro-Frontend Architecture
+
+### Module 4: API Design & Communication
+
+- REST API Design & Best Practices
+- GraphQL
+- gRPC & Protocol Buffers
+- WebSockets
+- API Versioning Strategies
+- API Gateway Pattern
+- Rate Limiting & Throttling
+- Idempotency
+- Pagination (Cursor vs Offset)
+- HATEOAS
+
+### Module 5: Database Design & Storage
+
+- Relational Databases (SQL) — Normalization, Indexing, Joins
+- NoSQL Databases — Document, Key-Value, Column-Family, Graph
+- Database Sharding (Horizontal Partitioning)
+- Database Replication (Master-Slave, Master-Master)
+- Database Indexing (B-Tree, Hash, Composite)
+- CAP Theorem & PACELC
+- ACID vs BASE
+- Connection Pooling
+- Data Warehousing & OLAP vs OLTP
+- Time-Series Databases
+- Database Migration Strategies
+
+### Module 6: Caching
+
+- Caching Strategies (Cache-Aside, Write-Through, Write-Behind, Read-Through)
+- Cache Eviction Policies (LRU, LFU, TTL)
+- Distributed Caching (Redis, Memcached)
+- CDN (Content Delivery Network)
+- Cache Invalidation
+- Cache Stampede & Thundering Herd
+- Application-Level vs Database-Level Caching
+
+### Module 7: Messaging & Asynchronous Communication
+
+- Message Queues (RabbitMQ, SQS)
+- Event Streaming (Kafka, Google Pub/Sub)
+- Pub/Sub Pattern
+- Message Ordering & Exactly-Once Delivery
+- Dead Letter Queues
+- Saga Pattern (Orchestration vs Choreography)
+- Outbox Pattern
+- Backpressure Handling
+
+### Module 8: Networking & Protocols
+
+- OSI Model & TCP/IP
+- HTTP/1.1 vs HTTP/2 vs HTTP/3
+- DNS & How It Works
+- Load Balancing (L4 vs L7, Algorithms)
+- Reverse Proxy vs Forward Proxy
+- SSL/TLS & HTTPS
+- Long Polling vs Server-Sent Events vs WebSockets
+- Connection Pooling & Keep-Alive
+
+### Module 9: Scalability & Performance
+
+- Horizontal vs Vertical Scaling
+- Load Balancing Algorithms (Round Robin, Consistent Hashing, Least Connections)
+- Consistent Hashing
+- Database Read Replicas
+- Auto-Scaling
+- Capacity Planning & Estimation
+- Back-of-the-Envelope Calculations
+- Latency Numbers Every Programmer Should Know
+- Connection Pooling
+- Async Processing & Task Queues
+
+### Module 10: Reliability & Fault Tolerance
+
+- Availability vs Reliability vs Durability
+- Redundancy & Replication
+- Failover Strategies (Active-Passive, Active-Active)
+- Circuit Breaker Pattern
+- Retry with Exponential Backoff
+- Bulkhead Pattern
+- Health Checks & Heartbeats
+- Graceful Degradation
+- Chaos Engineering
+- Disaster Recovery (RPO, RTO)
+
+### Module 11: Distributed Systems
+
+- Distributed Consensus (Raft, Paxos)
+- Leader Election
+- Distributed Locking
+- Distributed Transactions (2PC, 3PC, Saga)
+- Clock Synchronization (Lamport, Vector Clocks)
+- Gossip Protocol
+- Split-Brain Problem
+- Quorum-Based Systems
+- Bloom Filters
+- Merkle Trees
+
+### Module 12: Security
+
+- Authentication (OAuth 2.0, JWT, SSO, SAML)
+- Authorization (RBAC, ABAC)
+- Encryption (At Rest, In Transit)
+- Hashing & Salting (bcrypt, argon2)
+- SQL Injection & XSS Prevention
+- CORS
+- API Security (API Keys, Rate Limiting, IP Whitelisting)
+- Zero Trust Architecture
+- Secrets Management
+
+### Module 13: Observability & Monitoring
+
+- Logging (Structured Logging, ELK Stack)
+- Metrics (Prometheus, Grafana)
+- Distributed Tracing (Jaeger, Zipkin, OpenTelemetry)
+- Alerting Strategies
+- SLOs, SLIs, SLAs
+- Health Check Endpoints
+- Application Performance Monitoring (APM)
+
+### Module 14: DevOps & CI/CD
+
+- CI/CD Pipelines
+- Containerization (Docker)
+- Container Orchestration (Kubernetes)
+- Infrastructure as Code (Terraform)
+- Blue-Green Deployment
+- Canary Deployment
+- Rolling Deployment
+- Feature Flags
+- GitOps
+
+### Module 15: Real-World System Design Case Studies
+
+- Design URL Shortener (TinyURL)
+- Design Rate Limiter
+- Design Notification System
+- Design Chat System (WhatsApp/Slack)
+- Design News Feed (Twitter/Instagram)
+- Design Video Streaming (YouTube/Netflix)
+- Design File Storage (Google Drive/Dropbox)
+- Design Search Autocomplete
+- Design E-Commerce (Amazon)
+- Design Ride Sharing (Uber/Ola)
+- Design Payment System
+- Design Distributed Cache
+- Design Ticket Booking (BookMyShow)
+- Design Collaborative Editor (Google Docs)
+
+### Module 16: System Design Interview Prep
+
+- Framework for Approaching System Design
+- Requirements Gathering (Functional & Non-Functional)
+- High-Level Design → Deep Dive Flow
+- Trade-offs & Justification
+- Estimation & Napkin Math
+- Common Mistakes to Avoid
