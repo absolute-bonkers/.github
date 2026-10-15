@@ -36,11 +36,11 @@ visit 👉🏻 [Creational Design Patterns with Examples](https://github.com/abs
 *Structural patterns focus on composing classes and objects into larger structures while ensuring that they work together.<br/>
 They help simplify the design by identifying simple ways to realize relationships between entities.*
 
-visit 👉🏻 [Structural Design Patterns with Examples]()
+visit 👉🏻 [Structural Design Patterns with Examples](https://github.com/absolute-bonkers/design-patterns-structural/blob/main/README.md)
 
 ### Behavioral Patterns 🕺
 
 *Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects.<br/> 
 They help define how objects interact in a manner that is more flexible and less coupled.*
 
-visit 👉🏻 [Behavioral Design Patterns with Examples](<>)
+visit 👉🏻 [Behavioral Design Patterns with Examples](https://github.com/absolute-bonkers/design-patterns-behavioral/blob/main/README.md)

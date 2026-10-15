@@ -48,5 +48,5 @@ ___
 
 - [Introduction to Design Patterns](/docs/intro-design-patterns.md)
 	- [Creational Design Patterns](https://github.com/absolute-bonkers/design-patterns-creational/blob/main/README.md)
-	- Structural Design Patterns
-	- Behavioral Design Patterns
+	- [Structural Design Patterns](https://github.com/absolute-bonkers/design-patterns-structural/blob/main/README.md)
+	- [Behavioral Design Patterns](https://github.com/absolute-bonkers/design-patterns-behavioral/blob/main/README.md)
