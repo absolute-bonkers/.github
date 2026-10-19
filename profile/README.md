@@ -68,17 +68,18 @@ ___
 
 ### Module 3: Architectural Patterns
 
-- Monolithic Architecture
-- Microservices Architecture
-- Service-Oriented Architecture (SOA)
-- Event-Driven Architecture (EDA)
-- Hexagonal Architecture (Ports & Adapters)
-- Clean Architecture
-- Layered (N-Tier) Architecture
-- CQRS (Command Query Responsibility Segregation)
-- Event Sourcing
-- Serverless Architecture
-- Micro-Frontend Architecture
+- [Architectural Patterns — Java examples and tests](https://github.com/absolute-bonkers/architectural-patterns)
+  - [Monolithic Architecture](https://github.com/absolute-bonkers/architectural-patterns/tree/main/monolithic)
+  - [Microservices Architecture](https://github.com/absolute-bonkers/architectural-patterns/tree/main/microservices)
+  - [Service-Oriented Architecture (SOA)](https://github.com/absolute-bonkers/architectural-patterns/tree/main/soa)
+  - [Event-Driven Architecture (EDA)](https://github.com/absolute-bonkers/architectural-patterns/tree/main/event-driven)
+  - [Hexagonal Architecture (Ports & Adapters)](https://github.com/absolute-bonkers/architectural-patterns/tree/main/hexagonal)
+  - [Clean Architecture](https://github.com/absolute-bonkers/architectural-patterns/tree/main/clean-architecture)
+  - [Layered (N-Tier) Architecture](https://github.com/absolute-bonkers/architectural-patterns/tree/main/layered)
+  - [CQRS (Command Query Responsibility Segregation)](https://github.com/absolute-bonkers/architectural-patterns/tree/main/cqrs)
+  - [Event Sourcing](https://github.com/absolute-bonkers/architectural-patterns/tree/main/event-sourcing)
+  - [Serverless Architecture](https://github.com/absolute-bonkers/architectural-patterns/tree/main/serverless)
+  - [Micro-Frontend Architecture](https://github.com/absolute-bonkers/architectural-patterns/tree/main/micro-frontends)
 
 ### Module 4: API Design & Communication
 
