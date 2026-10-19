@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a system design question
+    url: https://github.com/absolute-bonkers/system-design-interview-prep/discussions
+    about: Use Discussions for questions and learning conversations.
+  - name: Suggest an idea or discuss a broad change
+    url: https://github.com/absolute-bonkers/system-design-interview-prep/discussions
+    about: Start with a discussion before proposing a large change.

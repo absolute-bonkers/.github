@@ -1,0 +1,30 @@
+name: Content correction
+description: Report an error, broken link, or unclear explanation
+title: "[Correction]: "
+labels:
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping keep the material accurate and useful.
+  - type: input
+    id: location
+    attributes:
+      label: Page or example
+      description: Link to the file or describe where the issue appears.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What needs correction?
+      description: Quote or summarize the relevant claim and explain the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting reference
+      description: Link to a specification, official documentation, or other reliable evidence.
+    validations:
+      required: false

@@ -10,6 +10,8 @@
 
 **17 learning modules · 163 topics** · [Browse repositories by stars ↗](https://github.com/orgs/absolute-bonkers/repositories?type=public&s=stargazers)
 
+[Learning portal](https://absolute-bonkers.github.io/) · [Discussions](https://github.com/absolute-bonkers/system-design-interview-prep/discussions) · [Contribute](https://github.com/absolute-bonkers/.github/blob/main/CONTRIBUTING.md) · [Good first issues](https://github.com/search?q=org%3Aabsolute-bonkers+is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22&type=issues)
+
 ### 📚 What We Offer
 
 In this organization, you’ll find:

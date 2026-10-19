@@ -1,0 +1,31 @@
+name: Topic request
+description: Suggest a topic, example, or learning resource
+title: "[Topic]: "
+labels:
+  - topic request
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve the learning roadmap.
+  - type: input
+    id: module
+    attributes:
+      label: Module or repository
+      description: Which module should this belong to?
+      placeholder: "For example: Distributed Systems"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What should be added?
+      description: Explain the topic and what learners should understand.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Suggested references
+      description: Link primary or reputable sources if you have them.
+    validations:
+      required: false
