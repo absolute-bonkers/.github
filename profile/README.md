@@ -44,12 +44,20 @@ ___
 
 ### 🛒 Contents 
 
-### Module 1: Introduction to Design Patterns
+```mermaid
+flowchart LR
+    M1["1 · Design Patterns"] --> M2["2 · SOLID Principles"]
+    M2 --> M3["3 · Clean Code"]
+    M3 --> M4["4 · Architectural Patterns"]
+    M4 --> M5["5 · API Design"]
+```
 
-- [Introduction to Design Patterns](https://github.com/absolute-bonkers/.github/blob/main/docs/intro-design-patterns.md)
-	- [Creational Design Patterns](https://github.com/absolute-bonkers/design-patterns-creational/blob/main/README.md)
-	- [Structural Design Patterns](https://github.com/absolute-bonkers/design-patterns-structural/blob/main/README.md)
-	- [Behavioral Design Patterns](https://github.com/absolute-bonkers/design-patterns-behavioral/blob/main/README.md)
+Each numbered module has one canonical repository; its individual topics are
+organized as submodules or chapters inside that repository.
+
+### Module 1: Design Patterns
+
+- [GoF Design Patterns — introduction, all 23 patterns, examples, and tests](https://github.com/absolute-bonkers/design-patterns)
 
 ### Module 2: SOLID Principles
 
