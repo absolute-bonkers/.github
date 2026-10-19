@@ -3,12 +3,6 @@
 *Welcome to Absolute Bonkers, your one-stop shop for all things System Design!<br/> 
 🌟 Whether you’re a seasoned architect or just starting your journey into the world of designing robust systems, we’ve got you covered with a treasure trove of resources, examples, and insights.*
 
-## 🚧 Work in Progress 🚧
-
-*This project is currently under development.
-For any queries or suggestions, please reach out to [Contributors](#contributors)*
-
-
 ### 📚 What We Offer
 
 In this organization, you’ll find:
