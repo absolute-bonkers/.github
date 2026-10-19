@@ -46,20 +46,25 @@ ___
 
 ### Module 1: Introduction to Design Patterns
 
-- [Introduction to Design Patterns](/docs/intro-design-patterns.md)
+- [Introduction to Design Patterns](https://github.com/absolute-bonkers/.github/blob/main/docs/intro-design-patterns.md)
 	- [Creational Design Patterns](https://github.com/absolute-bonkers/design-patterns-creational/blob/main/README.md)
 	- [Structural Design Patterns](https://github.com/absolute-bonkers/design-patterns-structural/blob/main/README.md)
 	- [Behavioral Design Patterns](https://github.com/absolute-bonkers/design-patterns-behavioral/blob/main/README.md)
 
 ### Module 2: SOLID Principles & Clean Code
 
-- Single Responsibility Principle (SRP)
-- Open/Closed Principle (OCP)
-- Liskov Substitution Principle (LSP)
-- Interface Segregation Principle (ISP)
-- Dependency Inversion Principle (DIP)
-- DRY, KISS, YAGNI
-- Code Smells & Refactoring
+- [SOLID Principles — Java examples and tests](https://github.com/absolute-bonkers/solid-principles)
+  - [Single Responsibility (SRP)](https://github.com/absolute-bonkers/solid-principles/tree/main/srp)
+  - [Open/Closed (OCP)](https://github.com/absolute-bonkers/solid-principles/tree/main/ocp)
+  - [Liskov Substitution (LSP)](https://github.com/absolute-bonkers/solid-principles/tree/main/lsp)
+  - [Interface Segregation (ISP)](https://github.com/absolute-bonkers/solid-principles/tree/main/isp)
+  - [Dependency Inversion (DIP)](https://github.com/absolute-bonkers/solid-principles/tree/main/dip)
+- [Clean Code — Java examples and tests](https://github.com/absolute-bonkers/clean-code)
+  - [Don't Repeat Yourself (DRY)](https://github.com/absolute-bonkers/clean-code/tree/main/dry)
+  - [Keep It Simple (KISS)](https://github.com/absolute-bonkers/clean-code/tree/main/kiss)
+  - [You Aren't Gonna Need It (YAGNI)](https://github.com/absolute-bonkers/clean-code/tree/main/yagni)
+  - [Code Smells](https://github.com/absolute-bonkers/clean-code/tree/main/code-smells)
+  - [Refactoring](https://github.com/absolute-bonkers/clean-code/tree/main/refactoring)
 
 ### Module 3: Architectural Patterns
 
