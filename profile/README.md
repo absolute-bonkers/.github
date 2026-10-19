@@ -44,26 +44,6 @@ ___
 
 ### 🛒 Contents 
 
-```mermaid
-flowchart TB
-    M1["1 · Design Patterns"] --> M2["2 · SOLID"]
-    M2 --> M3["3 · Clean Code"]
-    M3 --> M4["4 · Architecture"]
-    M4 --> M5["5 · API Design"]
-    M5 --> M6["6 · Databases"]
-    M6 --> M7["7 · Caching"]
-    M7 --> M8["8 · Messaging"]
-    M8 --> M9["9 · Networking"]
-    M9 --> M10["10 · Scalability"]
-    M10 --> M11["11 · Reliability"]
-    M11 --> M12["12 · Distributed Systems"]
-    M12 --> M13["13 · Security"]
-    M13 --> M14["14 · Observability"]
-    M14 --> M15["15 · DevOps"]
-    M15 --> M16["16 · Case Studies"]
-    M16 --> M17["17 · Interview Prep"]
-```
-
 Each numbered module has one canonical repository; its individual topics are
 organized as submodules or chapters inside that repository.
 
