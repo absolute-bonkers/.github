@@ -22,6 +22,10 @@ Whether you’re developing web apps, mobile apps, or distributed systems, under
 *We encourage you to explore our repositories, contribute to discussions, and share your own insights.<br/>
 Together, we can create a vibrant community dedicated to mastering system design!*
 
+- [Explore the free learning portal](https://absolute-bonkers.github.io/)
+- [Join Discussions](https://github.com/absolute-bonkers/system-design-interview-prep/discussions)
+- [Contribute](https://github.com/absolute-bonkers/.github/blob/main/CONTRIBUTING.md) · [Browse the contribution board](https://github.com/orgs/absolute-bonkers/projects/2)
+
 
 ### 🚀 Let’s Connect!
 
