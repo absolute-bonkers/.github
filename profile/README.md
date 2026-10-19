@@ -30,7 +30,7 @@ If you have any questions or suggestions, feel free to reach out!*
 --- 
 
 ### Contributors:
-*Aditya Chandeliya -> https://github.com/imchandeliya*
+[Aditya Chandeliya](https://github.com/adityachandeliya)
 
 
 ___
