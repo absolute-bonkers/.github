@@ -6,6 +6,7 @@
 ### 📊 Live Snapshot
 
 [![Public repositories](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Forgs%2Fabsolute-bonkers&query=%24.public_repos&label=public%20repositories&logo=github)](https://github.com/orgs/absolute-bonkers/repositories)
+[![Followers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Forgs%2Fabsolute-bonkers&query=%24.followers&label=followers&logo=github)](https://github.com/orgs/absolute-bonkers/followers)
 
 **17 learning modules · 163 topics** · [Browse repositories by stars ↗](https://github.com/orgs/absolute-bonkers/repositories?type=public&s=stargazers)
 
