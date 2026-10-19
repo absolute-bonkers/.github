@@ -45,11 +45,23 @@ ___
 ### 🛒 Contents 
 
 ```mermaid
-flowchart LR
-    M1["1 · Design Patterns"] --> M2["2 · SOLID Principles"]
+flowchart TB
+    M1["1 · Design Patterns"] --> M2["2 · SOLID"]
     M2 --> M3["3 · Clean Code"]
-    M3 --> M4["4 · Architectural Patterns"]
+    M3 --> M4["4 · Architecture"]
     M4 --> M5["5 · API Design"]
+    M5 --> M6["6 · Databases"]
+    M6 --> M7["7 · Caching"]
+    M7 --> M8["8 · Messaging"]
+    M8 --> M9["9 · Networking"]
+    M9 --> M10["10 · Scalability"]
+    M10 --> M11["11 · Reliability"]
+    M11 --> M12["12 · Distributed Systems"]
+    M12 --> M13["13 · Security"]
+    M13 --> M14["14 · Observability"]
+    M14 --> M15["15 · DevOps"]
+    M15 --> M16["16 · Case Studies"]
+    M16 --> M17["17 · Interview Prep"]
 ```
 
 Each numbered module has one canonical repository; its individual topics are
@@ -104,145 +116,89 @@ organized as submodules or chapters inside that repository.
 
 ### Module 6: Database Design & Storage
 
-- Relational Databases (SQL) — Normalization, Indexing, Joins
-- NoSQL Databases — Document, Key-Value, Column-Family, Graph
-- Database Sharding (Horizontal Partitioning)
-- Database Replication (Master-Slave, Master-Master)
-- Database Indexing (B-Tree, Hash, Composite)
-- CAP Theorem & PACELC
-- ACID vs BASE
-- Connection Pooling
-- Data Warehousing & OLAP vs OLTP
-- Time-Series Databases
-- Database Migration Strategies
+- [Database Design & Storage — Java examples and topic guides](https://github.com/absolute-bonkers/database-design-storage)
+  - **Data models and query foundations:** [Relational SQL — normalization, indexes, joins](https://github.com/absolute-bonkers/database-design-storage/tree/main/topics/relational-sql) · [NoSQL — document, key-value, column-family, graph](https://github.com/absolute-bonkers/database-design-storage/tree/main/topics/nosql)
+  - **Distribution and consistency:** [Sharding](https://github.com/absolute-bonkers/database-design-storage/tree/main/topics/sharding) · [Replication — primary/replica and multi-primary](https://github.com/absolute-bonkers/database-design-storage/tree/main/topics/replication) · [CAP theorem and PACELC](https://github.com/absolute-bonkers/database-design-storage/tree/main/topics/cap-pacelc) · [ACID vs BASE](https://github.com/absolute-bonkers/database-design-storage/tree/main/topics/acid-base)
+  - **Operations and workload-specific storage:** [Indexing — B-tree, hash, composite](https://github.com/absolute-bonkers/database-design-storage/tree/main/topics/indexing) · [Connection pooling](https://github.com/absolute-bonkers/database-design-storage/tree/main/topics/connection-pooling) · [Data warehouse, OLAP vs OLTP](https://github.com/absolute-bonkers/database-design-storage/tree/main/topics/data-warehousing) · [Time-series databases](https://github.com/absolute-bonkers/database-design-storage/tree/main/topics/time-series) · [Database migrations](https://github.com/absolute-bonkers/database-design-storage/tree/main/topics/migrations)
 
 ### Module 7: Caching
 
-- Caching Strategies (Cache-Aside, Write-Through, Write-Behind, Read-Through)
-- Cache Eviction Policies (LRU, LFU, TTL)
-- Distributed Caching (Redis, Memcached)
-- CDN (Content Delivery Network)
-- Cache Invalidation
-- Cache Stampede & Thundering Herd
-- Application-Level vs Database-Level Caching
+- [Caching — Java examples and topic guides](https://github.com/absolute-bonkers/caching)
+  - **Strategies and placement:** [Cache-aside, read-through, write-through, write-behind](https://github.com/absolute-bonkers/caching/tree/main/topics/strategies) · [Application vs database caching](https://github.com/absolute-bonkers/caching/tree/main/topics/cache-layers)
+  - **Policies and freshness:** [LRU, LFU, TTL eviction](https://github.com/absolute-bonkers/caching/tree/main/topics/eviction) · [Cache invalidation](https://github.com/absolute-bonkers/caching/tree/main/topics/invalidation)
+  - **Distributed and edge caching:** [Redis and Memcached](https://github.com/absolute-bonkers/caching/tree/main/topics/distributed-caching) · [CDNs](https://github.com/absolute-bonkers/caching/tree/main/topics/cdn) · [Cache stampede and thundering herd](https://github.com/absolute-bonkers/caching/tree/main/topics/stampede)
 
 ### Module 8: Messaging & Asynchronous Communication
 
-- Message Queues (RabbitMQ, SQS)
-- Event Streaming (Kafka, Google Pub/Sub)
-- Pub/Sub Pattern
-- Message Ordering & Exactly-Once Delivery
-- Dead Letter Queues
-- Saga Pattern (Orchestration vs Choreography)
-- Outbox Pattern
-- Backpressure Handling
+- [Messaging & Asynchronous Communication — Java examples and topic guides](https://github.com/absolute-bonkers/messaging-async-communication)
+  - **Brokers and communication models:** [Message queues — RabbitMQ and SQS](https://github.com/absolute-bonkers/messaging-async-communication/tree/main/topics/message-queues) · [Event streaming — Kafka and Google Pub/Sub](https://github.com/absolute-bonkers/messaging-async-communication/tree/main/topics/event-streaming) · [Publish/subscribe](https://github.com/absolute-bonkers/messaging-async-communication/tree/main/topics/pub-sub)
+  - **Delivery semantics and recovery:** [Ordering and exactly-once delivery](https://github.com/absolute-bonkers/messaging-async-communication/tree/main/topics/delivery-semantics) · [Dead-letter queues](https://github.com/absolute-bonkers/messaging-async-communication/tree/main/topics/dead-letter-queues) · [Backpressure](https://github.com/absolute-bonkers/messaging-async-communication/tree/main/topics/backpressure)
+  - **Distributed workflows and consistency:** [Saga — orchestration vs choreography](https://github.com/absolute-bonkers/messaging-async-communication/tree/main/topics/saga) · [Transactional outbox](https://github.com/absolute-bonkers/messaging-async-communication/tree/main/topics/outbox)
 
 ### Module 9: Networking & Protocols
 
-- OSI Model & TCP/IP
-- HTTP/1.1 vs HTTP/2 vs HTTP/3
-- DNS & How It Works
-- Load Balancing (L4 vs L7, Algorithms)
-- Reverse Proxy vs Forward Proxy
-- SSL/TLS & HTTPS
-- Long Polling vs Server-Sent Events vs WebSockets
-- Connection Pooling & Keep-Alive
+- [Networking & Protocols — Java examples and topic guides](https://github.com/absolute-bonkers/networking-protocols)
+  - **Network foundations and web transport:** [OSI and TCP/IP](https://github.com/absolute-bonkers/networking-protocols/tree/main/network-models) · [HTTP/1.1 vs HTTP/2 vs HTTP/3](https://github.com/absolute-bonkers/networking-protocols/tree/main/http-evolution) · [DNS](https://github.com/absolute-bonkers/networking-protocols/tree/main/dns)
+  - **Routing and intermediaries:** [Load balancing — L4/L7 and algorithms](https://github.com/absolute-bonkers/networking-protocols/tree/main/load-balancing) · [Reverse vs forward proxy](https://github.com/absolute-bonkers/networking-protocols/tree/main/proxies)
+  - **Secure and persistent connections:** [TLS and HTTPS](https://github.com/absolute-bonkers/networking-protocols/tree/main/tls-https) · [Long polling vs SSE vs WebSockets](https://github.com/absolute-bonkers/networking-protocols/tree/main/realtime) · [Connection pooling and keep-alive](https://github.com/absolute-bonkers/networking-protocols/tree/main/connections)
 
 ### Module 10: Scalability & Performance
 
-- Horizontal vs Vertical Scaling
-- Load Balancing Algorithms (Round Robin, Consistent Hashing, Least Connections)
-- Consistent Hashing
-- Database Read Replicas
-- Auto-Scaling
-- Capacity Planning & Estimation
-- Back-of-the-Envelope Calculations
-- Latency Numbers Every Programmer Should Know
-- Connection Pooling
-- Async Processing & Task Queues
+- [Scalability & Performance — Java examples and topic guides](https://github.com/absolute-bonkers/scalability-performance)
+  - **Scaling and traffic distribution:** [Horizontal vs vertical scaling](https://github.com/absolute-bonkers/scalability-performance/tree/main/scaling) · [Load balancing — round robin, consistent hashing, least connections](https://github.com/absolute-bonkers/scalability-performance/tree/main/load-balancing) · [Consistent hashing](https://github.com/absolute-bonkers/scalability-performance/tree/main/consistent-hashing) · [Database read replicas](https://github.com/absolute-bonkers/scalability-performance/tree/main/read-replicas)
+  - **Capacity and elasticity:** [Autoscaling](https://github.com/absolute-bonkers/scalability-performance/tree/main/autoscaling) · [Capacity planning and estimation](https://github.com/absolute-bonkers/scalability-performance/tree/main/capacity-planning) · [Back-of-the-envelope calculations](https://github.com/absolute-bonkers/scalability-performance/tree/main/napkin-math)
+  - **Latency and concurrency:** [Programmer latency reference](https://github.com/absolute-bonkers/scalability-performance/tree/main/latency) · [Connection pooling](https://github.com/absolute-bonkers/scalability-performance/tree/main/connection-pooling) · [Async processing and task queues](https://github.com/absolute-bonkers/scalability-performance/tree/main/async-processing)
 
 ### Module 11: Reliability & Fault Tolerance
 
-- Availability vs Reliability vs Durability
-- Redundancy & Replication
-- Failover Strategies (Active-Passive, Active-Active)
-- Circuit Breaker Pattern
-- Retry with Exponential Backoff
-- Bulkhead Pattern
-- Health Checks & Heartbeats
-- Graceful Degradation
-- Chaos Engineering
-- Disaster Recovery (RPO, RTO)
+- [Reliability & Fault Tolerance — Java examples and topic guides](https://github.com/absolute-bonkers/reliability-fault-tolerance)
+  - **Reliability fundamentals:** [Availability, reliability, durability](https://github.com/absolute-bonkers/reliability-fault-tolerance/tree/main/quality-attributes) · [Redundancy and replication](https://github.com/absolute-bonkers/reliability-fault-tolerance/tree/main/redundancy) · [Active-passive vs active-active failover](https://github.com/absolute-bonkers/reliability-fault-tolerance/tree/main/failover)
+  - **Fault containment and recovery:** [Circuit breaker](https://github.com/absolute-bonkers/reliability-fault-tolerance/tree/main/circuit-breaker) · [Exponential-backoff retries](https://github.com/absolute-bonkers/reliability-fault-tolerance/tree/main/retries) · [Bulkheads](https://github.com/absolute-bonkers/reliability-fault-tolerance/tree/main/bulkhead) · [Health checks and heartbeats](https://github.com/absolute-bonkers/reliability-fault-tolerance/tree/main/health-checks) · [Graceful degradation](https://github.com/absolute-bonkers/reliability-fault-tolerance/tree/main/degradation)
+  - **Validation and recovery planning:** [Chaos engineering](https://github.com/absolute-bonkers/reliability-fault-tolerance/tree/main/chaos-engineering) · [Disaster recovery — RPO and RTO](https://github.com/absolute-bonkers/reliability-fault-tolerance/tree/main/disaster-recovery)
 
 ### Module 12: Distributed Systems
 
-- Distributed Consensus (Raft, Paxos)
-- Leader Election
-- Distributed Locking
-- Distributed Transactions (2PC, 3PC, Saga)
-- Clock Synchronization (Lamport, Vector Clocks)
-- Gossip Protocol
-- Split-Brain Problem
-- Quorum-Based Systems
-- Bloom Filters
-- Merkle Trees
+- [Distributed Systems — Java examples and topic guides](https://github.com/absolute-bonkers/distributed-systems)
+  - **Coordination and agreement:** [Consensus — Raft and Paxos](https://github.com/absolute-bonkers/distributed-systems/tree/main/consensus) · [Leader election](https://github.com/absolute-bonkers/distributed-systems/tree/main/leader-election) · [Distributed locking](https://github.com/absolute-bonkers/distributed-systems/tree/main/distributed-locking)
+  - **Transactions and time:** [Distributed transactions — 2PC, 3PC, Saga](https://github.com/absolute-bonkers/distributed-systems/tree/main/distributed-transactions) · [Lamport and vector clocks](https://github.com/absolute-bonkers/distributed-systems/tree/main/logical-clocks)
+  - **Membership, partitions, and replica sets:** [Gossip protocol](https://github.com/absolute-bonkers/distributed-systems/tree/main/gossip) · [Split brain](https://github.com/absolute-bonkers/distributed-systems/tree/main/split-brain) · [Quorum-based systems](https://github.com/absolute-bonkers/distributed-systems/tree/main/quorums)
+  - **Probabilistic and integrity structures:** [Bloom filters](https://github.com/absolute-bonkers/distributed-systems/tree/main/bloom-filters) · [Merkle trees](https://github.com/absolute-bonkers/distributed-systems/tree/main/merkle-trees)
 
 ### Module 13: Security
 
-- Authentication (OAuth 2.0, JWT, SSO, SAML)
-- Authorization (RBAC, ABAC)
-- Encryption (At Rest, In Transit)
-- Hashing & Salting (bcrypt, argon2)
-- SQL Injection & XSS Prevention
-- CORS
-- API Security (API Keys, Rate Limiting, IP Whitelisting)
-- Zero Trust Architecture
-- Secrets Management
+- [Security — Java examples and topic guides](https://github.com/absolute-bonkers/system-design-security)
+  - **Identity and access control:** [Authentication — OAuth 2.0, JWT, SSO, SAML](https://github.com/absolute-bonkers/system-design-security/tree/main/authentication) · [Authorization — RBAC and ABAC](https://github.com/absolute-bonkers/system-design-security/tree/main/authorization)
+  - **Data protection and safe input handling:** [Encryption at rest and in transit](https://github.com/absolute-bonkers/system-design-security/tree/main/encryption) · [Password hashing and salting — bcrypt, Argon2](https://github.com/absolute-bonkers/system-design-security/tree/main/password-hashing) · [SQL injection and XSS prevention](https://github.com/absolute-bonkers/system-design-security/tree/main/input-security)
+  - **Browser and API boundaries:** [CORS](https://github.com/absolute-bonkers/system-design-security/tree/main/cors) · [API keys, rate limits, IP allowlists](https://github.com/absolute-bonkers/system-design-security/tree/main/api-security)
+  - **Architecture and operations:** [Zero Trust](https://github.com/absolute-bonkers/system-design-security/tree/main/zero-trust) · [Secrets management](https://github.com/absolute-bonkers/system-design-security/tree/main/secrets-management)
 
 ### Module 14: Observability & Monitoring
 
-- Logging (Structured Logging, ELK Stack)
-- Metrics (Prometheus, Grafana)
-- Distributed Tracing (Jaeger, Zipkin, OpenTelemetry)
-- Alerting Strategies
-- SLOs, SLIs, SLAs
-- Health Check Endpoints
-- Application Performance Monitoring (APM)
+- [Observability & Monitoring — Java examples and topic guides](https://github.com/absolute-bonkers/observability-monitoring)
+  - **Signals and tooling:** [Structured logging and ELK](https://github.com/absolute-bonkers/observability-monitoring/tree/main/logging) · [Metrics — Prometheus and Grafana](https://github.com/absolute-bonkers/observability-monitoring/tree/main/metrics) · [Distributed tracing — Jaeger, Zipkin, OpenTelemetry](https://github.com/absolute-bonkers/observability-monitoring/tree/main/tracing)
+  - **Objectives and operations:** [Alerting strategies](https://github.com/absolute-bonkers/observability-monitoring/tree/main/alerting) · [SLIs, SLOs, SLAs](https://github.com/absolute-bonkers/observability-monitoring/tree/main/service-objectives) · [Health-check endpoints](https://github.com/absolute-bonkers/observability-monitoring/tree/main/health-checks) · [Application performance monitoring](https://github.com/absolute-bonkers/observability-monitoring/tree/main/apm)
 
 ### Module 15: DevOps & CI/CD
 
-- CI/CD Pipelines
-- Containerization (Docker)
-- Container Orchestration (Kubernetes)
-- Infrastructure as Code (Terraform)
-- Blue-Green Deployment
-- Canary Deployment
-- Rolling Deployment
-- Feature Flags
-- GitOps
+- [DevOps & CI/CD — examples and topic guides](https://github.com/absolute-bonkers/devops-cicd)
+  - **Build and delivery foundations:** [CI/CD pipelines](https://github.com/absolute-bonkers/devops-cicd/blob/main/topics/ci-cd.md) · [Docker containerization](https://github.com/absolute-bonkers/devops-cicd/blob/main/topics/containers.md) · [Kubernetes orchestration](https://github.com/absolute-bonkers/devops-cicd/blob/main/topics/kubernetes.md) · [Terraform infrastructure as code](https://github.com/absolute-bonkers/devops-cicd/blob/main/topics/infrastructure-as-code.md)
+  - **Release strategies:** [Blue-green deployment](https://github.com/absolute-bonkers/devops-cicd/blob/main/topics/blue-green.md) · [Canary deployment](https://github.com/absolute-bonkers/devops-cicd/blob/main/topics/canary.md) · [Rolling deployment](https://github.com/absolute-bonkers/devops-cicd/blob/main/topics/rolling.md)
+  - **Runtime change management:** [Feature flags](https://github.com/absolute-bonkers/devops-cicd/blob/main/topics/feature-flags.md) · [GitOps](https://github.com/absolute-bonkers/devops-cicd/blob/main/topics/gitops.md)
 
 ### Module 16: Real-World System Design Case Studies
 
-- Design URL Shortener (TinyURL)
-- Design Rate Limiter
-- Design Notification System
-- Design Chat System (WhatsApp/Slack)
-- Design News Feed (Twitter/Instagram)
-- Design Video Streaming (YouTube/Netflix)
-- Design File Storage (Google Drive/Dropbox)
-- Design Search Autocomplete
-- Design E-Commerce (Amazon)
-- Design Ride Sharing (Uber/Ola)
-- Design Payment System
-- Design Distributed Cache
-- Design Ticket Booking (BookMyShow)
-- Design Collaborative Editor (Google Docs)
+- [Real-World System Design Case Studies — architecture walkthroughs](https://github.com/absolute-bonkers/system-design-case-studies)
+  - **Web and discovery:** [URL shortener](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/url-shortener.md) · [Search autocomplete](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/search-autocomplete.md) · [News feed](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/news-feed.md)
+  - **Communication and media:** [Notification system](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/notifications.md) · [Chat system](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/chat.md) · [Video streaming](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/video-streaming.md)
+  - **Storage and commerce:** [File storage](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/file-storage.md) · [E-commerce](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/e-commerce.md) · [Payment system](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/payments.md) · [Ticket booking](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/ticket-booking.md)
+  - **Mobility and shared infrastructure:** [Ride sharing](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/ride-sharing.md) · [Rate limiter](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/rate-limiter.md) · [Distributed cache](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/distributed-cache.md) · [Collaborative editor](https://github.com/absolute-bonkers/system-design-case-studies/blob/main/topics/collaborative-editor.md)
 
 ### Module 17: System Design Interview Prep
 
-- Framework for Approaching System Design
-- Requirements Gathering (Functional & Non-Functional)
-- High-Level Design → Deep Dive Flow
-- Trade-offs & Justification
-- Estimation & Napkin Math
-- Common Mistakes to Avoid
+- [System Design Interview Prep — reusable framework, exercises, and rubrics](https://github.com/absolute-bonkers/system-design-interview-prep)
+  - [Framework for approaching a system design interview](https://github.com/absolute-bonkers/system-design-interview-prep/blob/main/topics/framework.md)
+  - [Functional and non-functional requirements gathering](https://github.com/absolute-bonkers/system-design-interview-prep/blob/main/topics/requirements.md)
+  - [High-level design to deep-dive flow](https://github.com/absolute-bonkers/system-design-interview-prep/blob/main/topics/design-flow.md)
+  - [Trade-offs and justification](https://github.com/absolute-bonkers/system-design-interview-prep/blob/main/topics/trade-offs.md)
+  - [Estimation and napkin math](https://github.com/absolute-bonkers/system-design-interview-prep/blob/main/topics/estimation.md)
+  - [Common mistakes to avoid](https://github.com/absolute-bonkers/system-design-interview-prep/blob/main/topics/common-mistakes.md)
