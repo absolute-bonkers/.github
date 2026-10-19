@@ -97,16 +97,10 @@ organized as submodules or chapters inside that repository.
 
 ### Module 5: API Design & Communication
 
-- REST API Design & Best Practices
-- GraphQL
-- gRPC & Protocol Buffers
-- WebSockets
-- API Versioning Strategies
-- API Gateway Pattern
-- Rate Limiting & Throttling
-- Idempotency
-- Pagination (Cursor vs Offset)
-- HATEOAS
+- [API Design & Communication — Java 21 examples and tests](https://github.com/absolute-bonkers/api-design-communication)
+  - **API styles and protocols:** [REST API design](https://github.com/absolute-bonkers/api-design-communication/tree/main/api-styles/rest) · [GraphQL](https://github.com/absolute-bonkers/api-design-communication/tree/main/api-styles/graphql) · [gRPC & Protocol Buffers](https://github.com/absolute-bonkers/api-design-communication/tree/main/api-styles/grpc) · [WebSockets](https://github.com/absolute-bonkers/api-design-communication/tree/main/api-styles/websockets)
+  - **API design and lifecycle:** [API versioning](https://github.com/absolute-bonkers/api-design-communication/tree/main/api-lifecycle/versioning) · [Idempotency](https://github.com/absolute-bonkers/api-design-communication/tree/main/api-lifecycle/idempotency) · [Pagination (cursor vs. offset)](https://github.com/absolute-bonkers/api-design-communication/tree/main/api-lifecycle/pagination) · [HATEOAS](https://github.com/absolute-bonkers/api-design-communication/tree/main/api-lifecycle/hateoas)
+  - **Gateway and traffic control:** [API Gateway pattern](https://github.com/absolute-bonkers/api-design-communication/tree/main/gateway-traffic/api-gateway) · [Rate limiting and throttling](https://github.com/absolute-bonkers/api-design-communication/tree/main/gateway-traffic/rate-limiting)
 
 ### Module 6: Database Design & Storage
 
