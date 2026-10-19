@@ -3,6 +3,12 @@
 *Welcome to Absolute Bonkers, your one-stop shop for all things System Design!<br/> 
 🌟 Whether you’re a seasoned architect or just starting your journey into the world of designing robust systems, we’ve got you covered with a treasure trove of resources, examples, and insights.*
 
+### 📊 Live Snapshot
+
+[![Public repositories](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Forgs%2Fabsolute-bonkers&query=%24.public_repos&label=public%20repositories&logo=github)](https://github.com/orgs/absolute-bonkers/repositories)
+
+**17 learning modules · 163 topics** · [Browse repositories by stars ↗](https://github.com/orgs/absolute-bonkers/repositories?type=public&s=stargazers)
+
 ### 📚 What We Offer
 
 In this organization, you’ll find:
