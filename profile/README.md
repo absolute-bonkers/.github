@@ -51,7 +51,7 @@ ___
 	- [Structural Design Patterns](https://github.com/absolute-bonkers/design-patterns-structural/blob/main/README.md)
 	- [Behavioral Design Patterns](https://github.com/absolute-bonkers/design-patterns-behavioral/blob/main/README.md)
 
-### Module 2: SOLID Principles & Clean Code
+### Module 2: SOLID Principles
 
 - [SOLID Principles — Java examples and tests](https://github.com/absolute-bonkers/solid-principles)
   - [Single Responsibility (SRP)](https://github.com/absolute-bonkers/solid-principles/tree/main/srp)
@@ -59,6 +59,9 @@ ___
   - [Liskov Substitution (LSP)](https://github.com/absolute-bonkers/solid-principles/tree/main/lsp)
   - [Interface Segregation (ISP)](https://github.com/absolute-bonkers/solid-principles/tree/main/isp)
   - [Dependency Inversion (DIP)](https://github.com/absolute-bonkers/solid-principles/tree/main/dip)
+
+### Module 3: Clean Code
+
 - [Clean Code — Java examples and tests](https://github.com/absolute-bonkers/clean-code)
   - [Don't Repeat Yourself (DRY)](https://github.com/absolute-bonkers/clean-code/tree/main/dry)
   - [Keep It Simple (KISS)](https://github.com/absolute-bonkers/clean-code/tree/main/kiss)
@@ -66,7 +69,7 @@ ___
   - [Code Smells](https://github.com/absolute-bonkers/clean-code/tree/main/code-smells)
   - [Refactoring](https://github.com/absolute-bonkers/clean-code/tree/main/refactoring)
 
-### Module 3: Architectural Patterns
+### Module 4: Architectural Patterns
 
 - [Architectural Patterns — Java examples and tests](https://github.com/absolute-bonkers/architectural-patterns)
   - [Monolithic Architecture](https://github.com/absolute-bonkers/architectural-patterns/tree/main/monolithic)
@@ -81,7 +84,7 @@ ___
   - [Serverless Architecture](https://github.com/absolute-bonkers/architectural-patterns/tree/main/serverless)
   - [Micro-Frontend Architecture](https://github.com/absolute-bonkers/architectural-patterns/tree/main/micro-frontends)
 
-### Module 4: API Design & Communication
+### Module 5: API Design & Communication
 
 - REST API Design & Best Practices
 - GraphQL
@@ -94,7 +97,7 @@ ___
 - Pagination (Cursor vs Offset)
 - HATEOAS
 
-### Module 5: Database Design & Storage
+### Module 6: Database Design & Storage
 
 - Relational Databases (SQL) — Normalization, Indexing, Joins
 - NoSQL Databases — Document, Key-Value, Column-Family, Graph
@@ -108,7 +111,7 @@ ___
 - Time-Series Databases
 - Database Migration Strategies
 
-### Module 6: Caching
+### Module 7: Caching
 
 - Caching Strategies (Cache-Aside, Write-Through, Write-Behind, Read-Through)
 - Cache Eviction Policies (LRU, LFU, TTL)
@@ -118,7 +121,7 @@ ___
 - Cache Stampede & Thundering Herd
 - Application-Level vs Database-Level Caching
 
-### Module 7: Messaging & Asynchronous Communication
+### Module 8: Messaging & Asynchronous Communication
 
 - Message Queues (RabbitMQ, SQS)
 - Event Streaming (Kafka, Google Pub/Sub)
@@ -129,7 +132,7 @@ ___
 - Outbox Pattern
 - Backpressure Handling
 
-### Module 8: Networking & Protocols
+### Module 9: Networking & Protocols
 
 - OSI Model & TCP/IP
 - HTTP/1.1 vs HTTP/2 vs HTTP/3
@@ -140,7 +143,7 @@ ___
 - Long Polling vs Server-Sent Events vs WebSockets
 - Connection Pooling & Keep-Alive
 
-### Module 9: Scalability & Performance
+### Module 10: Scalability & Performance
 
 - Horizontal vs Vertical Scaling
 - Load Balancing Algorithms (Round Robin, Consistent Hashing, Least Connections)
@@ -153,7 +156,7 @@ ___
 - Connection Pooling
 - Async Processing & Task Queues
 
-### Module 10: Reliability & Fault Tolerance
+### Module 11: Reliability & Fault Tolerance
 
 - Availability vs Reliability vs Durability
 - Redundancy & Replication
@@ -166,7 +169,7 @@ ___
 - Chaos Engineering
 - Disaster Recovery (RPO, RTO)
 
-### Module 11: Distributed Systems
+### Module 12: Distributed Systems
 
 - Distributed Consensus (Raft, Paxos)
 - Leader Election
@@ -179,7 +182,7 @@ ___
 - Bloom Filters
 - Merkle Trees
 
-### Module 12: Security
+### Module 13: Security
 
 - Authentication (OAuth 2.0, JWT, SSO, SAML)
 - Authorization (RBAC, ABAC)
@@ -191,7 +194,7 @@ ___
 - Zero Trust Architecture
 - Secrets Management
 
-### Module 13: Observability & Monitoring
+### Module 14: Observability & Monitoring
 
 - Logging (Structured Logging, ELK Stack)
 - Metrics (Prometheus, Grafana)
@@ -201,7 +204,7 @@ ___
 - Health Check Endpoints
 - Application Performance Monitoring (APM)
 
-### Module 14: DevOps & CI/CD
+### Module 15: DevOps & CI/CD
 
 - CI/CD Pipelines
 - Containerization (Docker)
@@ -213,7 +216,7 @@ ___
 - Feature Flags
 - GitOps
 
-### Module 15: Real-World System Design Case Studies
+### Module 16: Real-World System Design Case Studies
 
 - Design URL Shortener (TinyURL)
 - Design Rate Limiter
@@ -230,7 +233,7 @@ ___
 - Design Ticket Booking (BookMyShow)
 - Design Collaborative Editor (Google Docs)
 
-### Module 16: System Design Interview Prep
+### Module 17: System Design Interview Prep
 
 - Framework for Approaching System Design
 - Requirements Gathering (Functional & Non-Functional)
